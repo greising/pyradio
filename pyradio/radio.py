@@ -213,11 +213,11 @@ class PyRadio(object):
             self.refreshBody()
             return
 
-        if char == ord('+'):
+        if char == ord('0'):
             self.player.volumeUp()
             return
 
-        if char == ord('-'):
+        if char == ord('9'):
             self.player.volumeDown()
             return
 
